@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .nav {
+            display: flex;
+            justify-self: center;
+            justify-content: space-around;
+            height: 80px;
+            background-color: rgb(52, 51, 51);
+        }
+        a {
+            font-size: 30px;
+            font-weight: 600;
+            align-self: center;
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            color: aqua;
+        }
+        button {
+            height: 35px;
+            width: 100px;
+            align-self: center;
+            border-radius: 20px;
+            font-weight: 900;
+        }
+        button:hover {
+            background-color: aqua;
+            transform: scale(1.1);
+        }
+        body {
+            background-image: url(./images/Featured-Image-48.webp);
+            background-attachment: fixed;
+            /* background-repeat: repeat-x; */
+            background-size: cover;
+            height: 100vh;
+        }
+        /*
+        section {
+            display: flex;
+            flex-direction: row;
+        }
+        div p {
+            display: inline-block;
+        }
+        .a {
+            background-image: url(./crop.jpeg);
+            height: 100vh;
+            background-position: center center;
+            opacity: 0.75;
+        }
+        .b {
+            opacity: 0.75;
+            background-image: url(./tea-chai-nature-ffmpg.jpg);
+            height: 100vh;
+            background-position: center center;
+        }
+        .c {
+            opacity: 0.75;
+            background-image: url(./b77de07d4337a3b79eb2ddcf3b6b3941.jpg);
+            height: 100vh;
+            background-position: center center;
+        } */
+        section {
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+        }
+        .card {
+            background-color: antiquewhite;
+            z-index: 10000;
+            margin-top: 20px;
+            display: inline-block;
+            height: 450px;
+            width: 20%;
+            border: solid;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .card img {
+            margin-bottom: 20px;
+            height: 25vh;
+            width: 100%;
+        }
+        .card p {
+            display: flex;
+            align-self: center;
+            text-align: center;
+        }
+        .hbtn {
+            margin-top: 10px;
+            width: 50%;
+        }
+    </style>
+    <body>
+        <nav>
+            <div class="nav">
+                <img src="./images/tea-chai-nature-ffmpg.jpg" alt="1" />
+                <a href="#home">Home</a>
+                <a href="">Contact Us</a>
+                <a href="#about">About</a>
+                <a href="">More</a>
+                <button>Download</button>
+            </div>
+        </nav>
+        <section>
+            <div class="card">
+                <img src="./images/5OiVVt5.jpg" alt="" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                    hic explicabo quibusdam, temporibus eligendi cum ratione ut
+                    minima aut! Labore nulla impedit expedita ea alias eaque
+                    consequatur sequi velit ipsum repudiandae molestias ipsam
+                    quis tenetur quaerat asperiores tempora voluptatum itaque
+                    natus unde reprehenderit molestiae, consectetur pariatur
+                    aut? Aperiam, at dolore!
+                </p>
+                <button class="hbtn">ADD</button>
+            </div>
+            <div class="card">
+                <img src="./images/5OiVVt5.jpg" alt="" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                    hic explicabo quibusdam, temporibus eligendi cum ratione ut
+                    minima aut! Labore nulla impedit expedita ea alias eaque
+                    consequatur sequi velit ipsum repudiandae molestias ipsam
+                    quis tenetur quaerat asperiores tempora voluptatum itaque
+                    natus unde reprehenderit molestiae, consectetur pariatur
+                    aut? Aperiam, at dolore!
+                </p>
+                <button class="hbtn">ADD</button>
+            </div>
+            <div class="card">
+                <img src="./images/5OiVVt5.jpg" alt="" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                    hic explicabo quibusdam, temporibus eligendi cum ratione ut
+                    minima aut! Labore nulla impedit expedita ea alias eaque
+                    consequatur sequi velit ipsum repudiandae molestias ipsam
+                    quis tenetur quaerat asperiores tempora voluptatum itaque
+                    natus unde reprehenderit molestiae, consectetur pariatur
+                    aut? Aperiam, at dolore!
+                </p>
+                <button class="hbtn">ADD</button>
+            </div>
+            <div class="card">
+                <img src="./images/5OiVVt5.jpg" alt="" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                    hic explicabo quibusdam, temporibus eligendi cum ratione ut
+                    minima aut! Labore nulla impedit expedita ea alias eaque
+                    consequatur sequi velit ipsum repudiandae molestias ipsam
+                    quis tenetur quaerat asperiores tempora voluptatum itaque
+                    natus unde reprehenderit molestiae, consectetur pariatur
+                    aut? Aperiam, at dolore!
+                </p>
+                <button class="hbtn">ADD</button>
+            </div>
+        </section>
+        <section>
+            <div class="card">
+                <img src="./images/5OiVVt5.jpg" alt="" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                    hic explicabo quibusdam, temporibus eligendi cum ratione ut
+                    minima aut! Labore nulla impedit expedita ea alias eaque
+                    consequatur sequi velit ipsum repudiandae molestias ipsam
+                    quis tenetur quaerat asperiores tempora voluptatum itaque
+                    natus unde reprehenderit molestiae, consectetur pariatur
+                    aut? Aperiam, at dolore!
+                </p>
+                <button class="hbtn">ADD</button>
+            </div>
+            <div class="card">
+                <img src="./images/5OiVVt5.jpg" alt="" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                    hic explicabo quibusdam, temporibus eligendi cum ratione ut
+                    minima aut! Labore nulla impedit expedita ea alias eaque
+                    consequatur sequi velit ipsum repudiandae molestias ipsam
+                    quis tenetur quaerat asperiores tempora voluptatum itaque
+                    natus unde reprehenderit molestiae, consectetur pariatur
+                    aut? Aperiam, at dolore!
+                </p>
+                <button class="hbtn">ADD</button>
+            </div>
+            <div class="card">
+                <img src="./images/5OiVVt5.jpg" alt="" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                    hic explicabo quibusdam, temporibus eligendi cum ratione ut
+                    minima aut! Labore nulla impedit expedita ea alias eaque
+                    consequatur sequi velit ipsum repudiandae molestias ipsam
+                    quis tenetur quaerat asperiores tempora voluptatum itaque
+                    natus unde reprehenderit molestiae, consectetur pariatur
+                    aut? Aperiam, at dolore!
+                </p>
+                <button class="hbtn">ADD</button>
+            </div>
+            <div class="card">
+                <img src="./images/5OiVVt5.jpg" alt="" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                    hic explicabo quibusdam, temporibus eligendi cum ratione ut
+                    minima aut! Labore nulla impedit expedita ea alias eaque
+                    consequatur sequi velit ipsum repudiandae molestias ipsam
+                    quis tenetur quaerat asperiores tempora voluptatum itaque
+                    natus unde reprehenderit molestiae, consectetur pariatur
+                    aut? Aperiam, at dolore!
+                </p>
+                <button class="hbtn">ADD</button>
+            </div>
+        </section>
+        <section>
+            <div class="card">
+                <img src="./images/5OiVVt5.jpg" alt="" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                    hic explicabo quibusdam, temporibus eligendi cum ratione ut
+                    minima aut! Labore nulla impedit expedita ea alias eaque
+                    consequatur sequi velit ipsum repudiandae molestias ipsam
+                    quis tenetur quaerat asperiores tempora voluptatum itaque
+                    natus unde reprehenderit molestiae, consectetur pariatur
+                    aut? Aperiam, at dolore!
+                </p>
+                <button class="hbtn">ADD</button>
+            </div>
+            <div class="card">
+                <img src="./images/5OiVVt5.jpg" alt="" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                    hic explicabo quibusdam, temporibus eligendi cum ratione ut
+                    minima aut! Labore nulla impedit expedita ea alias eaque
+                    consequatur sequi velit ipsum repudiandae molestias ipsam
+                    quis tenetur quaerat asperiores tempora voluptatum itaque
+                    natus unde reprehenderit molestiae, consectetur pariatur
+                    aut? Aperiam, at dolore!
+                </p>
+                <button class="hbtn">ADD</button>
+            </div>
+            <div class="card">
+                <img src="./images/5OiVVt5.jpg" alt="" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                    hic explicabo quibusdam, temporibus eligendi cum ratione ut
+                    minima aut! Labore nulla impedit expedita ea alias eaque
+                    consequatur sequi velit ipsum repudiandae molestias ipsam
+                    quis tenetur quaerat asperiores tempora voluptatum itaque
+                    natus unde reprehenderit molestiae, consectetur pariatur
+                    aut? Aperiam, at dolore!
+                </p>
+                <button class="hbtn">ADD</button>
+            </div>
+            <div class="card">
+                <img src="./images/5OiVVt5.jpg" alt="" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                    hic explicabo quibusdam, temporibus eligendi cum ratione ut
+                    minima aut! Labore nulla impedit expedita ea alias eaque
+                    consequatur sequi velit ipsum repudiandae molestias ipsam
+                    quis tenetur quaerat asperiores tempora voluptatum itaque
+                    natus unde reprehenderit molestiae, consectetur pariatur
+                    aut? Aperiam, at dolore!
+                </p>
+                <button class="hbtn">ADD</button>
+            </div>
+        </section>
+
+        <!-- <section id="home">
+            <div>
+                <p class="a">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Minima reprehenderit laboriosam sint esse asperiores,
+                    aliquam, officiis dicta sapiente optio nostrum consequuntur.
+                    At error cum, veniam quam, excepturi quod voluptas qui
+                    accusantium placeat reiciendis id, eaque ad magnam molestias
+                    sapiente consequatur quisquam commodi obcaecati hic dolor
+                    deserunt. Repudiandae explicabo consectetur facilis.
+                </p>
+            </div>
+            <div>
+                <p class="b">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Minima reprehenderit laboriosam sint esse asperiores,
+                    aliquam, officiis dicta sapiente optio nostrum consequuntur.
+                    At error cum, veniam quam, excepturi quod voluptas qui
+                    accusantium placeat reiciendis id, eaque ad magnam molestias
+                    sapiente consequatur quisquam commodi obcaecati hic dolor
+                    deserunt. Repudiandae explicabo consectetur facilis.
+                </p>
+            </div>
+            <div>
+                <p class="c">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Minima reprehenderit laboriosam sint esse asperiores,
+                    aliquam, officiis dicta sapiente optio nostrum consequuntur.
+                    At error cum, veniam quam, excepturi quod voluptas qui
+                    accusantium placeat reiciendis id, eaque ad magnam molestias
+                    sapiente consequatur quisquam commodi obcaecati hic dolor
+                    deserunt. Repudiandae explicabo consectetur facilis.
+                </p>
+            </div>
+        </section>
+        <section id="about">
+            <div>
+                <p class="a">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Minima reprehenderit laboriosam sint esse asperiores,
+                    aliquam, officiis dicta sapiente optio nostrum consequuntur.
+                    At error cum, veniam quam, excepturi quod voluptas qui
+                    accusantium placeat reiciendis id, eaque ad magnam molestias
+                    sapiente consequatur quisquam commodi obcaecati hic dolor
+                    deserunt. Repudiandae explicabo consectetur facilis.
+                </p>
+            </div>
+            <div>
+                <p class="b">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Minima reprehenderit laboriosam sint esse asperiores,
+                    aliquam, officiis dicta sapiente optio nostrum consequuntur.
+                    At error cum, veniam quam, excepturi quod voluptas qui
+                    accusantium placeat reiciendis id, eaque ad magnam molestias
+                    sapiente consequatur quisquam commodi obcaecati hic dolor
+                    deserunt. Repudiandae explicabo consectetur facilis.
+                </p>
+            </div>
+            <div>
+                <p class="c">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Minima reprehenderit laboriosam sint esse asperiores,
+                    aliquam, officiis dicta sapiente optio nostrum consequuntur.
+                    At error cum, veniam quam, excepturi quod voluptas qui
+                    accusantium placeat reiciendis id, eaque ad magnam molestias
+                    sapiente consequatur quisquam commodi obcaecati hic dolor
+                    deserunt. Repudiandae explicabo consectetur facilis.
+                </p>
+            </div>
+        </section> -->
+    </body>
+</html>
